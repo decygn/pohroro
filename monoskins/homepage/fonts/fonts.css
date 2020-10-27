@@ -11,34 +11,6 @@
  *   - http://typekit.com/eulas/00000000000000003b9b12f9
  *   - http://typekit.com/eulas/00000000000000003b9b12fb
  *   - http://typekit.com/eulas/00000000000000003b9b12fc
- * proxima-nova:
- *   - http://typekit.com/eulas/00000000000000003b9b306c
- *   - http://typekit.com/eulas/00000000000000003b9b306d
- *   - http://typekit.com/eulas/00000000000000003b9b3068
- *   - http://typekit.com/eulas/00000000000000003b9b3069
- *   - http://typekit.com/eulas/00000000000000003b9b306a
- *   - http://typekit.com/eulas/00000000000000003b9b306b
- *   - http://typekit.com/eulas/00000000000000003b9b305e
- *   - http://typekit.com/eulas/00000000000000003b9b305f
- *   - http://typekit.com/eulas/00000000000000003b9b3066
- *   - http://typekit.com/eulas/00000000000000003b9b3067
- *   - http://typekit.com/eulas/00000000000000003b9b3062
- *   - http://typekit.com/eulas/00000000000000003b9b3063
- *   - http://typekit.com/eulas/00000000000000003b9b3060
- *   - http://typekit.com/eulas/00000000000000003b9b3061
- *   - http://typekit.com/eulas/00000000000000003b9b3064
- *   - http://typekit.com/eulas/00000000000000003b9b3065
- * proxima-nova-condensed:
- *   - http://typekit.com/eulas/00000000000000003b9b3078
- *   - http://typekit.com/eulas/00000000000000003b9b3079
- *   - http://typekit.com/eulas/00000000000000003b9b3072
- *   - http://typekit.com/eulas/00000000000000003b9b3073
- * proxima-nova-extra-condensed:
- *   - http://typekit.com/eulas/00000000000000003b9b3089
- *   - http://typekit.com/eulas/00000000000000003b9b3088
- *   - http://typekit.com/eulas/00000000000000003b9b3083
- *   - http://typekit.com/eulas/00000000000000003b9b3082
- *
  * © 2009-2020 Adobe Systems Incorporated. All Rights Reserved.
  */
 /*{"last_published":"2020-07-15 22:43:16 UTC"}*/
@@ -80,11 +52,6 @@ font-family:"europa";
 src:url("https://use.typekit.net/af/a6fa4a/00000000000000003b9b12fc/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3") format("woff2"),url("https://use.typekit.net/af/a6fa4a/00000000000000003b9b12fc/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3") format("woff"),url("https://use.typekit.net/af/a6fa4a/00000000000000003b9b12fc/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3") format("opentype");
 font-display:auto;font-style:italic;font-weight:700;
 }
-
-.tk-proxima-nova { font-family: "proxima-nova",sans-serif; }
-.tk-proxima-nova-condensed { font-family: "proxima-nova-condensed",sans-serif; }
-.tk-proxima-nova-extra-condensed { font-family: "proxima-nova-extra-condensed",sans-serif; }
-.tk-europa { font-family: "europa",sans-serif; }
 
 @import url("https://p.typekit.net/p.css?s=1&k=hcr0had&ht=tk&f=35971.35972.35973.35974.35975.35976.35977.35978&a=37615630&app=typekit&e=css");
 
@@ -136,158 +103,100 @@ src:url("https://use.typekit.net/af/f922a6/00000000000000003b9b0a1d/27/l?primer=
 font-display:auto;font-style:italic;font-weight:400;
 }
 
-.tk-odisseia { font-family: "odisseia",sans-serif; }
-
 @font-face {
     font-family: 'Recoleta';
-    src: url('Recoleta-Regular.eot');
-    src: local('Recoleta Regular'), local('Recoleta-Regular'),
-        url('Recoleta-Regular.eot?#iefix') format('embedded-opentype'),
-        url('Recoleta-Regular.woff') format('woff'),
-        url('Recoleta-Regular.ttf') format('truetype');
+    src: url('https://assets.pohroro.com/monoskins/homepage/fonts/Recoleta-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Recoleta';
-    src: url('RecoletaAlt-Medium.eot');
-    src: local('Recoleta Alt Medium'), local('RecoletaAlt-Medium'),
-        url('RecoletaAlt-Medium.eot?#iefix') format('embedded-opentype'),
-        url('RecoletaAlt-Medium.woff') format('woff'),
-        url('RecoletaAlt-Medium.ttf') format('truetype');
+    src: url('https://assets.pohroro.com/monoskins/homepage/fonts/RecoletaAlt-Medium.ttf') format('truetype');
     font-weight: 500;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Recoleta';
-    src: url('RecoletaAlt-Black.eot');
-    src: local('Recoleta Alt Black'), local('RecoletaAlt-Black'),
-        url('RecoletaAlt-Black.eot?#iefix') format('embedded-opentype'),
-        url('RecoletaAlt-Black.woff') format('woff'),
-        url('RecoletaAlt-Black.ttf') format('truetype');
+    src: url('https://assets.pohroro.com/monoskins/homepage/fonts/RecoletaAlt-Black.ttf') format('truetype');
     font-weight: 900;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Recoleta';
-    src: url('Recoleta-Medium.eot');
-    src: local('Recoleta Medium'), local('Recoleta-Medium'),
-        url('Recoleta-Medium.eot?#iefix') format('embedded-opentype'),
-        url('Recoleta-Medium.woff') format('woff'),
-        url('Recoleta-Medium.ttf') format('truetype');
+    src: url('https://assets.pohroro.com/monoskins/homepage/fonts/Recoleta-Medium.ttf') format('truetype');
     font-weight: 500;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Recoleta';
-    src: url('RecoletaAlt-Thin.eot');
-    src: local('Recoleta Alt Thin'), local('RecoletaAlt-Thin'),
-        url('RecoletaAlt-Thin.eot?#iefix') format('embedded-opentype'),
-        url('RecoletaAlt-Thin.woff') format('woff'),
-        url('RecoletaAlt-Thin.ttf') format('truetype');
+    src: url('https://assets.pohroro.com/monoskins/homepage/fonts/RecoletaAlt-Thin.ttf') format('truetype');
     font-weight: 100;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Recoleta';
-    src: url('Recoleta-Thin.eot');
-    src: local('Recoleta Thin'), local('Recoleta-Thin'),
-        url('Recoleta-Thin.eot?#iefix') format('embedded-opentype'),
-        url('Recoleta-Thin.woff') format('woff'),
-        url('Recoleta-Thin.ttf') format('truetype');
+    src: url('https://assets.pohroro.com/monoskins/homepage/fonts/Recoleta-Thin.ttf') format('truetype');
     font-weight: 100;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Recoleta';
-    src: url('RecoletaAlt-SemiBold.eot');
-    src: local('Recoleta Alt SemiBold'), local('RecoletaAlt-SemiBold'),
-        url('RecoletaAlt-SemiBold.eot?#iefix') format('embedded-opentype'),
-        url('RecoletaAlt-SemiBold.woff') format('woff'),
-        url('RecoletaAlt-SemiBold.ttf') format('truetype');
+    src: url('https://assets.pohroro.com/monoskins/homepage/fonts/RecoletaAlt-SemiBold.ttf') format('truetype');
     font-weight: 600;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Recoleta';
-    src: url('RecoletaAlt-Bold.eot');
-    src: local('Recoleta Alt Bold'), local('RecoletaAlt-Bold'),
-        url('RecoletaAlt-Bold.eot?#iefix') format('embedded-opentype'),
-        url('RecoletaAlt-Bold.woff') format('woff'),
-        url('RecoletaAlt-Bold.ttf') format('truetype');
+    src: url('https://assets.pohroro.com/monoskins/homepage/fonts/RecoletaAlt-Bold.ttf') format('truetype');
     font-weight: bold;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Recoleta';
-    src: url('Recoleta-Black.eot');
-    src: local('Recoleta Black'), local('Recoleta-Black'),
-        url('Recoleta-Black.eot?#iefix') format('embedded-opentype'),
-        url('Recoleta-Black.woff') format('woff'),
-        url('Recoleta-Black.ttf') format('truetype');
+    src: url('https://assets.pohroro.com/monoskins/homepage/fonts/Recoleta-Black.ttf') format('truetype');
     font-weight: 900;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Recoleta';
-    src: url('Recoleta-SemiBold.eot');
-    src: local('Recoleta SemiBold'), local('Recoleta-SemiBold'),
-        url('Recoleta-SemiBold.eot?#iefix') format('embedded-opentype'),
-        url('Recoleta-SemiBold.woff') format('woff'),
-        url('Recoleta-SemiBold.ttf') format('truetype');
+    src: url('https://assets.pohroro.com/monoskins/homepage/fonts/Recoleta-SemiBold.ttf') format('truetype');
     font-weight: 600;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Recoleta';
-    src: url('Recoleta-Bold.eot');
-    src: local('Recoleta Bold'), local('Recoleta-Bold'),
-        url('Recoleta-Bold.eot?#iefix') format('embedded-opentype'),
-        url('Recoleta-Bold.woff') format('woff'),
-        url('Recoleta-Bold.ttf') format('truetype');
+    src: url('https://assets.pohroro.com/monoskins/homepage/fonts/Recoleta-Bold.ttf') format('truetype');
     font-weight: bold;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Recoleta';
-    src: url('RecoletaAlt-Light.eot');
-    src: local('Recoleta Alt Light'), local('RecoletaAlt-Light'),
-        url('RecoletaAlt-Light.eot?#iefix') format('embedded-opentype'),
-        url('RecoletaAlt-Light.woff') format('woff'),
-        url('RecoletaAlt-Light.ttf') format('truetype');
+    src: url('https://assets.pohroro.com/monoskins/homepage/fonts/RecoletaAlt-Light.ttf') format('truetype');
     font-weight: 300;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Recoleta';
-    src: url('RecoletaAlt-Regular.eot');
-    src: local('Recoleta Alt Regular'), local('RecoletaAlt-Regular'),
-        url('RecoletaAlt-Regular.eot?#iefix') format('embedded-opentype'),
-        url('RecoletaAlt-Regular.woff') format('woff'),
-        url('RecoletaAlt-Regular.ttf') format('truetype');
+    src: url('https://assets.pohroro.com/monoskins/homepage/fonts/RecoletaAlt-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Recoleta';
-    src: url('Recoleta-Light.eot');
-    src: local('Recoleta Light'), local('Recoleta-Light'),
-        url('Recoleta-Light.eot?#iefix') format('embedded-opentype'),
-        url('Recoleta-Light.woff') format('woff'),
-        url('Recoleta-Light.ttf') format('truetype');
+    src: url('https://assets.pohroro.com/monoskins/homepage/fonts/Recoleta-Light.ttf') format('truetype');
     font-weight: 300;
     font-style: normal;
 }
